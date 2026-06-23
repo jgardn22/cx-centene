@@ -8,15 +8,14 @@
 <style>
   :root {
     --brand-primary: #00548F;
-    --brand-secondary: #2C74A4;
-    --brand-tint: #AAC9DE;
     --brand-accent: #002B4D;
+    --brand-gray: #9C9A9B;
     --text: #1a1a1a;
     --muted: #6b7280;
     --bg: #ffffff;
-    --card-bg: #f4f8fb;
-    --border: #dde7ef;
-    --soon-bg: #eef3f7;
+    --card-bg: #f5f5f5;
+    --border: #e2e2e2;
+    --soon-bg: #f0f0f0;
   }
   * { box-sizing: border-box; }
   body {
@@ -90,7 +89,7 @@
   }
   .card.ready .tag { background: var(--brand-primary); color: #fff; }
   .card.soon { background: var(--soon-bg); opacity: 0.85; }
-  .card.soon .tag { background: #cbd5e1; color: #334155; }
+  .card.soon .tag { background: var(--brand-gray); color: #fff; }
   .card h3 { margin: 4px 0 0; font-size: 18px; color: var(--brand-accent); }
   .card p { margin: 0; color: var(--muted); font-size: 14px; }
   .card .cta { margin-top: 8px; font-size: 14px; font-weight: 600; color: var(--brand-primary); }
